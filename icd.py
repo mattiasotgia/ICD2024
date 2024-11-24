@@ -53,7 +53,7 @@ class hist(ICD):
         for i in range(self.nbins):
             nmeasures = int(input(f'Dimmi quante volte hai misurato {self.nmin + i} : '))
             area += nmeasures
-            for j in range(nmeasures):
+            for _ in range(nmeasures):
                 data.append(self.nmin + i)
 
         print(f'Area totale misurata {area}')
