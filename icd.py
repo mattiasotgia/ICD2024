@@ -98,7 +98,7 @@ class hist(ICD):
 
         # x = np.linspace(bin_centers.min(), bin_centers.max(), 100)
         x = bin_centers
-        self.ax.plot(x, poisson_f(x, *parameters), color='r', label='Fit')
+        self.ax.step(x, poisson_f(x, *parameters), where='mid', color='r', label='Fit')
 
         self.ax.text(1-.025, .725, f'Risultati del fit $N = {parameters[0]:.2g}$, $\\lambda = {parameters[1]:.2g}$',
                      transform=self.ax.transAxes, ha='right')
