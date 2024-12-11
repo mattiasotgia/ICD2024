@@ -10,4 +10,4 @@ There are two active version
 
 ## Author(s)
 
-M Sotgia, thanks to the code provided by the Genova INFN group
+M Sotgia [\<mattia.sotgia@ge.infn.it\>](mailto:mattia.sotgia@ge.infn.it), thanks to the code provided by the Genova INFN group
