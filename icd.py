@@ -22,16 +22,16 @@ def latex_float(f):
 
 class ICD:
     def __init__(self, fake=False):
-        print('------------------------')
-        print('   Open week @ UNIGE    ')
-        print('------------------------')
-        print('      interactive       ')
+        print('---------------------------------------------')
+        print('   International cosmic day @ INFN Genova    ')
+        print('---------------------------------------------')
+        print('                interactive                  ')
         print()
         self.__routine__(fake)
 
     def __plot_init_routine__(self):
         self.figure, self.ax = plt.subplots()
-        self.ax.text(.025, .95, 'Open week @ UNIGE',
+        self.ax.text(.025, .95, 'International Cosmic Day @ INFN Genova',
                      transform=self.ax.transAxes, fontproperties={'weight': 'bold'})
 
     def __routine__(self, fake):
