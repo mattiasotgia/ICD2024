@@ -41,7 +41,7 @@ class ICD:
 class hist(ICD):
 
     def __load_data__(self):
-        self.nmin = int(input('Dimmi il valore minimo '))
+        self.nmin = int(input('Dimmi il valore minimo  '))
         self.nmax = int(input('Dimmi il valore massimo '))
 
         self.nbins = self.nmax - self.nmin + 1
