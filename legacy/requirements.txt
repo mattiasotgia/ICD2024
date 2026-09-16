@@ -1,0 +1,8 @@
+voila
+ipywidgets
+ipysheet
+ipyaggrid
+pandas
+numpy
+matplotlib
+scipy
