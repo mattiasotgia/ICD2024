@@ -35,7 +35,7 @@ notebook with `jupyter notebook app.ipynb` (or `jupyter lab`).
 
 ## Run on Binder
 
-Run here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<user>/<repo>/<branch>?urlpath=voila%2Frender%2Fapp.ipynb)
+Run here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattiasotgia/ICD2024/main?urlpath=voila%2Frender%2Fapp.ipynb)
 
 1. Push this folder (`app.ipynb` + `requirements.txt`) to a GitHub repo.
 2. Go to <https://mybinder.org>, point it at your repo, and set the
