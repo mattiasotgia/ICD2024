@@ -1,4 +1,4 @@
-voila>=0.5
+voila==0.5.4
 ipywidgets>=8
 notebook
 matplotlib
