@@ -12,6 +12,8 @@ Both tabs share the same layout: a data-entry column, a plot column, and a
 column with a short explanation on top and a running log (messages + fit
 results) on the bottom.
 
+Try it here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattiasotgia/ICD2024/main?urlpath=voila%2Frender%2Fapp.ipynb)
+
 ## Files
 
 - `app.ipynb` — the notebook that Voilà renders as the web app. Cells:
